@@ -1,0 +1,28 @@
+{
+  "name": "chyoa-md",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^3.8.0",
+    "astro": "^2.10.3",
+    "jsdom": "^22.1.0",
+    "lodash.kebabcase": "^4.1.1",
+    "shelljs": "^0.8.5",
+    "socket.io": "^4.7.2",
+    "turndown": "^7.1.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.1",
+    "@types/lodash.kebabcase": "^4.1.7",
+    "@types/shelljs": "^0.8.12",
+    "@types/turndown": "^5.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
